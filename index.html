@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NOVA Web Agency — Home</title>
+  <meta name="description" content="NOVA Web Agency - performance-first web development, web apps, eCommerce, and design." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="NOVA Web Agency">
+        <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#007BFF"/><stop offset="1" stop-color="#00D4FF"/></linearGradient></defs><rect width="24" height="24" rx="6" fill="url(#g)"></rect><path d="M7 16 L12 8 L17 16 Z" fill="white"></path></svg>
+        <span class="brand-name">NOVA</span>
+      </a>
+
+      <nav class="site-nav" role="navigation" aria-label="Main">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle menu"><span class="hamburger"></span></button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-ctas">
+        <a class="btn ghost" href="contact.html">Get a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>We craft <span class="accent">fast</span>, resilient & futuristic web experiences.</h1>
+          <p class="lead">NOVA Web Agency builds high-performance websites, PWAs, and eCommerce platforms for ambitious companies worldwide.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="portfolio.html">Our Work</a>
+            <a class="btn ghost" href="services.html">Services</a>
+          </div>
+
+          <ul class="trust-list" aria-hidden="true">
+            <li><strong>Edge</strong> CDN-first</li>
+            <li><strong>Optimized</strong> Core Web Vitals</li>
+            <li><strong>Global</strong> team</li>
+          </ul>
+        </div>
+
+        <div class="hero-media" aria-hidden="true">
+          <!-- performant Unsplash hero image (lazy) -->
+          <img src="https://images.unsplash.com/photo-1526378721765-2e0b9d9d4d1f?auto=format&fit=crop&w=1200&q=60" alt="Futuristic web interface" loading="lazy" width="900" height="600">
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES PREVIEW -->
+    <section id="services-preview" class="section glass">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <p class="section-sub">From marketing websites to full-stack web apps — we do it all.</p>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Frontend & UI</h3>
+            <p>Pixel-perfect, accessible interfaces in React, Next.js and plain JS for maximum control.</p>
+          </article>
+
+          <article class="card">
+            <h3>Backend & APIs</h3>
+            <p>Scalable APIs, serverless functions, and robust data architecture.</p>
+          </article>
+
+          <article class="card">
+            <h3>eCommerce</h3>
+            <p>Shopify, WooCommerce or custom headless stores — optimized for conversions and speed.</p>
+          </article>
+
+          <article class="card">
+            <h3>Performance</h3>
+            <p>Core Web Vitals audits and remediation — prioritizing LCP, FID, and CLS.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO PREVIEW -->
+    <section class="section projects-preview">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=60" alt="Project 1" loading="lazy">
+            <div class="project-meta">
+              <h4>Endvre — Brand Relaunch</h4>
+              <p class="muted">Rebrand & PWA build with storytelling-first layout.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1000&q=60" alt="Project 2" loading="lazy">
+            <div class="project-meta">
+              <h4>GG Clean Experts — Service Platform</h4>
+              <p class="muted">Service booking flow & fast checkout.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1504691342899-4d92b50853e1?auto=format&fit=crop&w=1000&q=60" alt="Project 3" loading="lazy">
+            <div class="project-meta">
+              <h4>Boxed Water NG — eCommerce</h4>
+              <p class="muted">Shop design and conversion optimization.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="center-btn">
+          <a href="portfolio.html" class="btn primary">View Full Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta section glass">
+      <div class="container cta-inner">
+        <h2>Let's build the future — together</h2>
+        <p class="lead">Tell us about your goals and timeline. We handle the rest.</p>
+        <a class="btn primary" href="contact.html">Start a Project</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>NOVA Web Agency</strong>
+        <p class="muted">Electric-blue, performance-first web development.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="legal muted">© <span id="year"></span> NOVA Web Agency</div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
