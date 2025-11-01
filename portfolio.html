@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — NOVA Web Agency</title>
+  <meta name="description" content="Portfolio of NOVA Web Agency — selected case studies." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><svg width="36" height="36" viewBox="0 0 24 24"><defs><linearGradient id="g4" x1="0" x2="1"><stop offset="0" stop-color="#007BFF"/><stop offset="1" stop-color="#00D4FF"/></linearGradient></defs><rect width="24" height="24" rx="6" fill="url(#g4)"></rect><path d="M7 16 L12 8 L17 16 Z" fill="white"></path></svg><span class="brand-name">NOVA</span></a>
+
+      <nav class="site-nav" role="navigation"><button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle menu"><span class="hamburger"></span></button>
+        <ul id="nav-list" class="nav-list"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html" class="active">Portfolio</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul>
+      </nav>
+
+      <div class="header-ctas"><a class="btn ghost" href="contact.html">Get a Quote</a></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1 class="section-title">Portfolio</h1>
+        <p class="section-sub">A selection of projects highlighting our approach to performance and design.</p>
+
+        <div class="portfolio-grid">
+          <!-- Case study blocks -->
+          <article class="case">
+            <img src="https://images.unsplash.com/photo-1526378721765-2e0b9d9d4d1f?auto=format&fit=crop&w=1200&q=60" alt="Endvre project" loading="lazy">
+            <div class="case-meta">
+              <h3>Endvre — Rebrand & Site</h3>
+              <p class="muted">Brand story, accessible markup, PWA features.</p>
+              <a class="link small" href="#">View case study →</a>
+            </div>
+          </article>
+
+          <article class="case">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=60" alt="GG Clean Experts" loading="lazy">
+            <div class="case-meta">
+              <h3>GG Clean Experts — Booking Platform</h3>
+              <p class="muted">Fast booking funnel and local SEO optimization.</p>
+              <a class="link small" href="#">View case study →</a>
+            </div>
+          </article>
+
+          <article class="case">
+            <img src="https://images.unsplash.com/photo-1504691342899-4d92b50853e1?auto=format&fit=crop&w=1200&q=60" alt="Boxed Water NG" loading="lazy">
+            <div class="case-meta">
+              <h3>Boxed Water NG — eCommerce</h3>
+              <p class="muted">Shop optimization and storytelling product pages.</p>
+              <a class="link small" href="#">View case study →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid"><div><strong>NOVA Web Agency</strong><p class="muted">Electric-blue • Performance-first</p></div><nav aria-label="Footer"><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html">Contact</a></li></ul></nav><div class="legal muted">© <span id="year4"></span> NOVA Web Agency</div></div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
