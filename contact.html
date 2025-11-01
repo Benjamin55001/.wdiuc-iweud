@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — NOVA Web Agency</title>
+  <meta name="description" content="Contact NOVA Web Agency — let's start your project." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><svg width="36" height="36" viewBox="0 0 24 24"><defs><linearGradient id="g5" x1="0" x2="1"><stop offset="0" stop-color="#007BFF"/><stop offset="1" stop-color="#00D4FF"/></linearGradient></defs><rect width="24" height="24" rx="6" fill="url(#g5)"></rect><path d="M7 16 L12 8 L17 16 Z" fill="white"></path></svg><span class="brand-name">NOVA</span></a>
+
+      <nav class="site-nav" role="navigation"><button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle menu"><span class="hamburger"></span></button>
+        <ul id="nav-list" class="nav-list"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" class="active">Contact</a></li></ul>
+      </nav>
+
+      <div class="header-ctas"><a class="btn ghost" href="contact.html">Get a Quote</a></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <h1 class="section-title">Let's talk about your project</h1>
+          <p class="lead">Tell us about your goals and budget. We respond within 24 hours.</p>
+
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:hello@nova.example">hello@nova.example</a></li>
+            <li><strong>Location:</strong> Remote — Global</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="mailto:hello@nova.example" method="post" enctype="text/plain" aria-label="Contact form">
+          <label><span class="label-text">Full name</span><input name="name" required></label>
+          <label><span class="label-text">Email</span><input type="email" name="email" required></label>
+          <label><span class="label-text">Company</span><input name="company"></label>
+          <label><span class="label-text">Project brief</span><textarea name="message" rows="6" required></textarea></label>
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Send message</button>
+            <button class="btn ghost" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid"><div><strong>NOVA Web Agency</strong><p class="muted">Electric-blue • Performance-first</p></div><nav aria-label="Footer"><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li></ul></nav><div class="legal muted">© <span id="year5"></span> NOVA Web Agency</div></div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
